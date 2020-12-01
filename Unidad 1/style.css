@@ -1,0 +1,29 @@
+body {
+background-color: aquamarine;
+}
+
+.header{
+    background-color: azure;
+    height: 50px;
+    text-align: center;
+}
+
+.section{
+    height: 70vh;
+}
+
+#articulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.footer{
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
