@@ -1,0 +1,207 @@
+body{
+    background-image: url(https://images.pexels.com/photos/532173/pexels-photo-532173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-attachment:fixed;
+  }
+  
+  /* HEADER-style & ANCLAS*/
+  
+  header, h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  @media screen and (min-width: 681px){
+  
+  /* HEADER & ANCLAS */
+  .text{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.8vw;
+    text-align: center;
+    padding-top: 2%;
+  }
+    
+  ol{
+    margin-left: 11vw;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.5vw;
+  }
+    a:hover{
+    text-shadow: 2px 2px 8px #0000FF;
+  }
+    
+  /* TABLE-style */
+  
+  .text-table{
+    font-size: 1vw;
+  }
+  
+  .box{
+    background-color: rgb(250,240,225);
+    margin: 5%;
+  }
+  
+  table{
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    th{
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(250, 200, 180);  
+   }
+  }
+  
+  td{
+    border: 2px solid black;
+    padding: 1%;
+  }
+  
+  /* FOMULARIOS-style */
+  
+  .form{
+    display: flex;
+    justify-content: center;
+    border: 1px solid; 
+    margin: 0% 35% 2% 35%;
+    padding: 2% 0%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1) inset, 1px 1px   5px 5px rgba(0, 0, 0, 0.2) inset;
+    input{
+    border-radius: 5px;
+    }
+  }
+  
+  .form1{
+    background-color: rgb(20,250,200);
+  }
+  
+  .form2{
+    background-color: rgb(200,250,20);
+    padding: 2.5%;
+  }  
+  
+  .form3{
+    background-color: rgb(250,20,200);
+    margin: 0% 33% 2% 33%;
+  }  
+   
+  .text-form{
+    text-align: center;
+    font-weight: 700;
+    font-family: segoe UI;
+    font-size: 2vw;
+  }
+  
+  #submit{
+    margin: 0% 40%;
+  }
+  
+  /* FOOTER-style */
+  
+  footer{
+    color: white;
+    text-align:center;
+    background-color: black;
+    .text-f{
+      padding: 1%;
+    }
+  }  
+  
+  }
+  
+  @media screen and (max-width: 680px){
+    
+  /* HEADER & ANCLAS*/ 
+  .text,ol{
+     font-family: 'Source Code Pro', monospace;
+     font-size: 15px;
+  }
+    
+  a:hover{
+    text-shadow: 2px 2px 8px #0000FF;
+  }
+    
+  /* TABLE*/
+    
+  .priority-2{
+     display: none;
+  }
+    
+  .box{
+      display: block;
+      overflow-x: auto;
+      background-color: rgb(250,240,225);
+  }
+    
+  table{
+      padding: 0%;
+      font-size: 15px;
+      th{
+         border: 1px solid black;
+         text-align: center;
+         background-color: rgb(250, 200, 180);  
+         }
+  }
+  
+  td{
+     border: 1px solid black;
+     padding: 0.5%;
+  }
+  
+  /* FOMULARIOS-style */
+  
+  .form{
+     border: 1px solid; 
+     width: 100%;
+     margin-bottom: 5%;
+     border-radius: 5px;
+     box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1) inset, 1px 1px   5px 5px rgba(0, 0, 0, 0.2) inset;
+     input{
+         border-radius: 5px;
+      }
+  }
+  
+  .form1{
+     background-color: rgb(20,250,200);
+     padding: 2%;
+  }
+  
+  .form2{
+     background-color: rgb(200,250,20);
+     padding: 2%;
+   }  
+  
+  .form3{
+     background-color: rgb(250,20,200);
+     padding: 0;
+   }  
+   
+  .text-form{
+     text-align: center;
+     font-weight: 700;
+     font-family: segoe UI;
+     font-size: 15px;
+     margin-top: 5%;
+  }
+  
+  /* FOOTER-style */
+  
+  footer{
+     color: white;
+     text-align:center;
+     background-color: black;
+     .text-f{
+         padding: 1%;
+     }
+    }  
+  }
+  
+  // para esconder el mensaje "Ningún archivo seleccionado"
+  input[type="file"] {
+      overflow: hidden;  
+  }
+  
+  
+  
+  
